@@ -1,0 +1,11 @@
+1- Navigate to project folder: cd C:\Users\ASUS\prestige-coiff
+2- Create .env file in the project root (SEE "ENV_TEMPLATE.txt")  
+3- Start XAMPP MySQL (from XAMPP Control Panel)
+4- On the CMD execute this command: npm install --legacy-peer-deps
+5- Create database and tables: pnpm db:push
+6- Add sample data: npx tsx scripts/seed-data.ts
+7- Start the website: npm run dev
+
+IMPORTANT NOTE!!!
+==> the .env file does existe in the folder but if u need to change smth just go ahead and change it.
+

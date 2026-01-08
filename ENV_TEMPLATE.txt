@@ -1,0 +1,29 @@
+Copy this content to create your .env file:
+========================================
+
+DATABASE_URL=mysql://root:@localhost:3306/prestige_coiff
+JWT_SECRET=my-super-secret-key-change-this-in-production
+VITE_APP_TITLE=Prestige Coiff & Co
+VITE_APP_LOGO=/logo1.png
+
+========================================
+
+ADMIN LOGIN CREDENTIALS:
+Username: admin
+Password: admin123
+
+========================================
+
+INSTRUCTIONS:
+1. Create a new file named .env (with the dot at the beginning)
+2. Copy the content above into that file
+3. Save it in the root folder of the project
+4. If your MySQL has a password, change the DATABASE_URL line to:
+   DATABASE_URL=mysql://root:YOUR_PASSWORD@localhost:3306/prestige_coiff
+
+NOTE: The file must be named exactly .env (not .env.txt or env.txt)
+
+ADMIN ACCESS:
+After starting the server, go to: http://localhost:3000/admin/login
+Use the credentials above to login to the admin dashboard.
+
